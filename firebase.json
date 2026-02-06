@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/Prueba1_32311285/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
